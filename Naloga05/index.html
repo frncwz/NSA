@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Naloga 5</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="stil.css"/>
+	</head>
+	<body>
+		<div id="okvir">
+			<form action="" method="POST">
+				<div class="skupina">
+					<div class="naslov">Name</div>
+					
+					<div id="first-name">
+						<input type="text" name="firstname"/>
+						<span class="navodila">First</span>
+					</div>
+					
+					<div id="last-name">
+						<input type="text" name="lastname"/>
+						<span class="navodila">Last</span>
+					</div>
+					
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Job Title</div>
+					<input type="text" name="jobtitle" id="job-title"/>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Company or Organisation's Name</div>
+					<input type="text" name="companyname" id="company-name"/>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Biography</div>
+					<textarea name="biography" id="biography"></textarea>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Phone</div>
+					
+					<div class="stevilka">
+						<input type="text" name="stevilka1"/>
+						<span class="navodila">###</span>
+					</div>
+					<span class="minus">-</span>
+					<div class="stevilka">
+						<input type="text" name="stevilka2"/>
+						<span class="navodila">###</span>
+					</div>
+					<span class="minus">-</span>
+					<div class="stevilka">
+						<input type="text" name="stevilka3"/>
+						<span class="navodila">####</span>
+					</div>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Email</div>
+					<input type="text" name="email" id="email"/>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Proposal title</div>
+					<input type="text" name="proposaltitle" id="proposal-title"/>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Short description</div>
+					<textarea name="shortdescription" id="shortdescription"></textarea>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Abstract</div>
+					<textarea name="abstract" id="abstract"></textarea>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Topics</div>
+					<div class="check"><input type="checkbox" name="topic1" value="topic1"/> Topic the First</div>
+					<div class="check"><input type="checkbox" name="topic2" value="topic2"/> Topic the Second</div>
+					<div class="check"><input type="checkbox" name="topic3" value="topic3"/> Topic the Third</div>
+					<div class="check"><input type="checkbox" name="topic4" value="topic4"/> Topic the Fourth</div>
+					<div class="check"><input type="checkbox" name="topic5" value="topic5"/> Topic the Fifth</div>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Session Type</div>
+					<select name="sessiontype">
+						<option value="presentation">Presentation</option>
+					</select>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Audience Level</div>
+					<select name="audiencelevel">
+						<option value="novice">Novice</option>
+					</select>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Video URL</div>
+					<div id="video-url">
+						<input type="text" name="videourl"/>
+						<span class="navodila">If you have a video proposal available online, enter the URL.</span>
+					</div>
+				</div>
+				
+				<div class="skupina">
+					<div class="naslov">Aditional Information</div>
+					<textarea name="aditionalinformation" id="aditional-information"></textarea>
+				</div>
+				
+				<div class="skupina">
+					<input type="submit" value="Submit">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

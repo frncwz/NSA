@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#okvir {
+	margin: 20px auto;
+	width: 400px;
+}
+
+.skupina {
+	clear: both;
+	margin-bottom: 12px;
+}
+
+.naslov {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+
+input, textarea {
+	box-sizing: border-box;
+}
+
+#first-name {
+	width: 80px;
+	float: left;
+	margin-bottom: 8px;
+}
+
+#last-name {
+	width: 120px;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+#first-name input, #last-name input {
+	width: 100%;
+}
+
+.navodila {
+	font-size: 12px;
+}
+
+#job-title {
+	width: 205px;
+}
+
+#company-name {
+	width: 400px;
+}
+
+#biography {
+	width: 400px;
+	height: 80px;
+	resize: none;
+}
+
+.stevilka {
+	float: left;
+	width: 50px;
+	margin-bottom: 10px;
+}
+
+.stevilka:last-child {
+	width: 60px;
+}
+
+.stevilka input {
+	width: 100%;
+}
+
+.minus {
+	float: left;
+	margin: 0 3px;
+}
+
+.stevilka .navodila {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#shortdescription {
+	width: 400px;
+	height: 80px;
+	resize: none;
+}
+
+#abstract {
+	width: 400px;
+	height: 140px;
+	resize: none;
+}
+
+.check {
+	margin-top: 5px;
+}
+
+select {
+	width: 200px;
+}
+
+#video-url {
+	width: 400px;
+}
+
+#video-url input {
+	width: 100%;
+}
+
+#aditional-information {
+	width: 400px;
+	height: 140px;
+	resize: none;
+}
